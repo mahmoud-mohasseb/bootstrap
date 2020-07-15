@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
+
+    <title>admin panal</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">users</a>
+            </li>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Setting</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    </div>
+
+
+    <!-- breadcrumb -->
+    <section class="breadcrumb">
+        <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </section>
+
+
+
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>
+                        <img src="./img/process.svg" alt="" width="32" height="32" title="Bootstrap">
+                        Dashboard Pinterest</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- body -->
+
+
+    <!-- left sidebar id section -->
+    <section id="main-sidebar">
+        <div class="row">
+            <div class="col-3">
+                <div class="container">
+                    <ul class="list-group">
+                        <li class="list-group-item ">
+                            <img src="./img/real-estate.svg" alt="" width="32" height="32" title="Bootstrap">
+                            Home </li>
+                        <li class="list-group-item">
+                            <img src="./img/team.svg" alt="" width="32" height="32" title="Bootstrap">
+                            Users
+                            <span class="badge badge-success badge-pill">14</span>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="./img/real-estate.svg" alt="" width="32" height="32" title="Bootstrap">
+                            Mobile
+                            <span class="badge badge-danger badge-pill">140</span>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="./img/real-estate.svg" alt="" width="32" height="32" title="Bootstrap">
+                            list</li>
+                        <li class="list-group-item">
+                            <img src="./img/process.svg" alt="" width="32" height="32" title="Bootstrap">
+                            Settings</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- table with edit -->
+    <section id="table">
+        <div class="row">
+            <div class="col-sm-4">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">NO</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">button</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><button class="btn btn-danger">Delete</button></td>
+                            <td><button class="btn btn-success">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td><button type="button" class="btn btn-danger" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    add
+                                </button></td>
+                            <td><button class="btn btn-success">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td><button type="button" class="btn btn-danger" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    add
+                                </button></td>
+                            <td><button class="btn btn-success">Edit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- dropdown -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content col col-18">
+                <!-- contain it in form -->
+                <form action="">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- text editor -->
+                    <div class="modal-body">
+
+                        <label class="text-danger"> subject</label>
+                        <input type="text" class="input-group">
+                        <label class="text-danger"> Date</label>
+                        <input type="date" class="input-group">
+                        <!-- https://cdn.ckeditor.com/ -->
+                        <!-- <textarea name="editor1"></textarea> -->
+                        <textarea name="editor1"></textarea>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>Questions? Call-0074589965552</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FQA</a></li>
+                <li><a href="#">Inversotr Relation</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate information</a></li>
+                <li class="social">
+                    <img src="./img/facebook.svg" alt="" width="32" height="32" title="Bootstrap">
+                    <img src="./img/twitter.svg" alt="" width="32" height="32" title="Bootstrap">
+                    <img src="./img/linkedin.svg" alt="" width="32" height="32" title="Bootstrap">
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Guy Gift cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $('#myModal').modal('toggle')
+    </script>
+
+
+    <!-- ckeditor -->
+    <script>
+        CKEDITOR.replace('editor1');
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
